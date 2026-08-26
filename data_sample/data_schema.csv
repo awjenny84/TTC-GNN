@@ -1,0 +1,22 @@
+﻿column,dtype_in_full_data,sample_note
+uid,int64,Anonymized user/account identifier in the sample.
+wid,object,Anonymized post identifier in the sample.
+text_raw,object,Raw post text with URLs/users/numeric identifiers redacted in the sample.
+create_time,object,Post creation date. Sample keeps date only.
+attitudes_count,int64,Number of likes/attitudes.
+comments_count,int64,Number of comments.
+reposts_count,int64,Number of reposts.
+laiyuan ,object,Source/role label. The trailing space is kept to match the original CSV column name.
+length,int64,Text length feature.
+emoji_count,int64,Number of emoji tokens.
+is_qa,int64,Question/answer style indicator.
+sentiment_score,float64,Sentiment score feature.
+emotional_polarity,int64,Sentiment polarity label/feature.
+TTR,float64,Type-token ratio lexical diversity feature.
+RTTR,float64,Root type-token ratio lexical diversity feature.
+MTLD,float64,Measure of textual lexical diversity.
+MSTTR,float64,Mean segmental type-token ratio.
+commonly_used_words_ratio,float64,Commonly used words ratio.
+stop_words_ratio,float64,Stop words ratio.
+common_ratio,float64,Common words ratio used by downstream scripts.
+stop_ratio,float64,Stop words ratio used by downstream scripts.

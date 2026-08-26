@@ -1,0 +1,32 @@
+# Tested with Python 3.10/3.11.
+#
+# If you use a GPU, install the PyTorch / PyG / DGL wheels that match your
+# CUDA version. The pins below reflect the experiment environment used by this
+# project as closely as possible.
+
+# Core data science stack
+numpy>=1.24
+pandas>=2.1
+scipy>=1.15
+scikit-learn==1.7.2
+
+# Deep learning and graph neural networks
+torch==2.4.0
+torch-geometric==2.6.1
+dgl==2.2.1
+
+# Transformer backbones and parameter-efficient tuning
+transformers==4.56.1
+peft==0.17.1
+
+# Text preprocessing and style-feature extraction
+jieba==0.42.1
+snownlp==0.12.3
+
+# Evaluation, significance tests, and explanations
+statsmodels>=0.14
+shap>=0.45
+
+# Plotting and utility scripts
+matplotlib>=3.7
+requests>=2.32

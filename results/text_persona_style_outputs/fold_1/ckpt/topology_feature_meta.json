@@ -1,0 +1,18 @@
+{
+  "feature_definition": "x_v = c_v + a_v + t_v",
+  "centrality": "directed in-degree/(N-1) and out-degree/(N-1)",
+  "activity": "zscore(log1p(statuses_count)) for human users; learnable vector for bots",
+  "node_type": "learnable bot/user embedding",
+  "excluded_direct_features": [
+    "followers_count",
+    "friends_count",
+    "verified",
+    "depth",
+    "norm_followers_count",
+    "norm_statuses_count"
+  ],
+  "activity_mean": 7.022589787271862,
+  "activity_std": 2.57149495317411,
+  "num_nodes": 34959,
+  "num_edges": 55354
+}

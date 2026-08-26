@@ -1,0 +1,91 @@
+{
+  "model_variant": "text_only_bert",
+  "uses_text": true,
+  "uses_roberta": false,
+  "uses_topology": false,
+  "uses_style": false,
+  "split_method": "per-bot chronological post-level 80/10/10",
+  "time_col": "create_time",
+  "backbone": "/tmp/Agent/github_tsmy/coling2018-master/chinese-roberta-wwm-ext",
+  "run_seeds": [
+    42,
+    52,
+    62,
+    72,
+    82
+  ],
+  "summary": {
+    "best_val_loss": {
+      "mean": 1.0909180026188399,
+      "std": 0.2368189171260643
+    },
+    "best_val_acc": {
+      "mean": 0.5543534260690366,
+      "std": 0.012609209943864427
+    },
+    "best_val_precision": {
+      "mean": 0.5891680352751973,
+      "std": 0.022442153574463355
+    },
+    "best_val_recall": {
+      "mean": 0.5552053557207697,
+      "std": 0.011559816148008812
+    },
+    "best_val_f1": {
+      "mean": 0.5625441463385907,
+      "std": 0.010957295065085663
+    },
+    "best_val_macro_f1": {
+      "mean": 0.5625441463385907,
+      "std": 0.010957295065085663
+    },
+    "train_loss": {
+      "mean": 0.4617769300742965,
+      "std": 0.16925721592583887
+    },
+    "train_acc": {
+      "mean": 0.804936843120239,
+      "std": 0.08407062926919064
+    },
+    "train_precision": {
+      "mean": 0.8003312065315018,
+      "std": 0.08365314334383908
+    },
+    "train_recall": {
+      "mean": 0.7917891857385642,
+      "std": 0.09149515178023042
+    },
+    "train_f1": {
+      "mean": 0.7934763121126346,
+      "std": 0.08997691411185335
+    },
+    "train_macro_f1": {
+      "mean": 0.7934763121126346,
+      "std": 0.08997691411185335
+    },
+    "test_loss": {
+      "mean": 1.1094292307258717,
+      "std": 0.28930002732680266
+    },
+    "test_acc": {
+      "mean": 0.5552766393442623,
+      "std": 0.017143141832188354
+    },
+    "test_precision": {
+      "mean": 0.5816929776205277,
+      "std": 0.03578665286224147
+    },
+    "test_recall": {
+      "mean": 0.5502382036330734,
+      "std": 0.011860885491269025
+    },
+    "test_f1": {
+      "mean": 0.5536706164050406,
+      "std": 0.020274685069937366
+    },
+    "test_macro_f1": {
+      "mean": 0.5536706164050406,
+      "std": 0.020274685069937366
+    }
+  }
+}

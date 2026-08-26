@@ -1,0 +1,21 @@
+﻿file,column,dtype_in_full_data,sample_note
+nodes_sample.csv,seed_laiyuan,object,Seed/source role label retained from the full graph.
+nodes_sample.csv,seed_uid,string,Anonymized seed account identifier.
+nodes_sample.csv,seed_column,object,Source column used to identify the seed in collection.
+nodes_sample.csv,depth,int64,BFS depth from the seed account.
+nodes_sample.csv,parent_uid,string,Anonymized parent account identifier in the sampled BFS tree.
+nodes_sample.csv,uid,string,Anonymized node/account identifier.
+nodes_sample.csv,screen_name,object,Redacted display name.
+nodes_sample.csv,description,object,Redacted profile description.
+nodes_sample.csv,gender,object,Gender field from source data when available.
+nodes_sample.csv,verified,object,Verification status from source data when available.
+nodes_sample.csv,followers_count,float64,Coarsened follower count.
+nodes_sample.csv,friends_count,float64,Coarsened friend/following count.
+nodes_sample.csv,statuses_count,float64,Coarsened status/post count.
+nodes_sample.csv,node_type,object,"Node type, e.g. seed AI account or user node."
+nodes_sample.csv,seed_laiyuan,object,Seed/source role label retained from the full graph.
+nodes_sample.csv,seed_uid,string,Anonymized seed account identifier.
+nodes_sample.csv,depth,int64,BFS depth associated with the edge.
+nodes_sample.csv,src_uid,string,Anonymized source account identifier.
+nodes_sample.csv,dst_uid,string,Anonymized destination account identifier.
+nodes_sample.csv,edge_type,object,Relationship type retained from the full graph.

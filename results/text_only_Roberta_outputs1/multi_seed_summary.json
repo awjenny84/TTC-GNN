@@ -1,0 +1,91 @@
+{
+  "model_variant": "text_only_bert",
+  "uses_text": true,
+  "uses_roberta": false,
+  "uses_topology": false,
+  "uses_style": false,
+  "split_method": "per-bot chronological post-level 80/10/10",
+  "time_col": "create_time",
+  "backbone": "/tmp/Agent/github_tsmy/coling2018-master/bert-based-chinese",
+  "run_seeds": [
+    42,
+    52,
+    62,
+    72,
+    82
+  ],
+  "summary": {
+    "best_val_loss": {
+      "mean": 1.028275675258056,
+      "std": 0.051402578518243626
+    },
+    "best_val_acc": {
+      "mean": 0.5505924781040701,
+      "std": 0.012452462453585502
+    },
+    "best_val_precision": {
+      "mean": 0.5877991068997139,
+      "std": 0.020118308498255813
+    },
+    "best_val_recall": {
+      "mean": 0.5531753485095714,
+      "std": 0.013762283961834388
+    },
+    "best_val_f1": {
+      "mean": 0.5506199397624837,
+      "std": 0.010290896123887162
+    },
+    "best_val_macro_f1": {
+      "mean": 0.5506199397624837,
+      "std": 0.010290896123887162
+    },
+    "train_loss": {
+      "mean": 0.5472967744337207,
+      "std": 0.08394620539051234
+    },
+    "train_acc": {
+      "mean": 0.7544884774852955,
+      "std": 0.044125358564668406
+    },
+    "train_precision": {
+      "mean": 0.7487107798197943,
+      "std": 0.04592782710698522
+    },
+    "train_recall": {
+      "mean": 0.7307843888644527,
+      "std": 0.05293130454030326
+    },
+    "train_f1": {
+      "mean": 0.73329216109036,
+      "std": 0.05164653717097739
+    },
+    "train_macro_f1": {
+      "mean": 0.73329216109036,
+      "std": 0.05164653717097739
+    },
+    "test_loss": {
+      "mean": 1.0124041273974294,
+      "std": 0.06901643574548848
+    },
+    "test_acc": {
+      "mean": 0.5485143442622951,
+      "std": 0.010389932829223722
+    },
+    "test_precision": {
+      "mean": 0.5699241661309479,
+      "std": 0.02164146702165169
+    },
+    "test_recall": {
+      "mean": 0.5431329062441039,
+      "std": 0.010347591115965098
+    },
+    "test_f1": {
+      "mean": 0.5405965226122087,
+      "std": 0.008093793928535887
+    },
+    "test_macro_f1": {
+      "mean": 0.5405965226122087,
+      "std": 0.008093793928535887
+    }
+  }
+}
