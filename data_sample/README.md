@@ -10,9 +10,9 @@ dataset and the BFS graph files.
 - `data_schema.csv`: column names, data types in the full dataset, and brief
   field notes.
 - `fans_bfs_nodes3_sample.csv`: 347 sampled graph nodes with the same 14
-  columns as `fans_bfs_nodes3.csv`.
+  columns as `nodes.csv`.
 - `fans_bfs_edges3_sample.csv`: 300 sampled graph edges with the same 6
-  columns as `fans_bfs_edges3.csv`.
+  columns as `edges.csv`.
 - `graph_schema.csv`: field notes for the sampled graph node and edge files.
 
 ## Anonymization
