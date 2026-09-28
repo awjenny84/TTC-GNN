@@ -5,14 +5,14 @@ dataset and the BFS graph files.
 
 ## Files
 
-- `aigc_new_with_style_features_sample.csv`: 120-row sample with the same 21
+- `post_sample.csv`: 120-row sample with the same 21
   columns as the full dataset.
 - `data_schema.csv`: column names, data types in the full dataset, and brief
   field notes.
-- `fans_bfs_nodes3_sample.csv`: 347 sampled graph nodes with the same 14
-  columns as `nodes.csv`.
-- `fans_bfs_edges3_sample.csv`: 300 sampled graph edges with the same 6
-  columns as `edges.csv`.
+- `nodes_sample.csv`: 347 sampled graph nodes with the same 14
+  columns as `nodes_sample.csv`.
+- `edges_sample.csv`: 300 sampled graph edges with the same 6
+  columns as `edges_sample.csv`.
 - `graph_schema.csv`: field notes for the sampled graph node and edge files.
 
 ## Anonymization
